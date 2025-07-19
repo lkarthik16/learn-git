@@ -124,6 +124,9 @@ To restore the stashed work:
 git stash pop
 
 
+✅ To delete the remote branch on GitHub:
+git push origin --delete branch-name
+
 
 🧠 Bonus Commands
 | Command             | Purpose                                 |
