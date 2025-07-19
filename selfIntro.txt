@@ -1,0 +1,17 @@
+
+● Hello, I'm Karthik, currently based in Chennai, and I bring around 3.8 years of hands-on experience in software testing, including both manual and automation testing.
+
+● Over the years, I’ve worked across different domains like e-commerce—mainly with brands such as Pepperfry, Vijay Sales, and Mothercare India—where I contributed to testing web applications.
+
+● I’m proficient in JavaScript and Playwright, which I’ve used to build stable and reusable test automation scripts. I also use frameworks like Test Runner and follow POM design to ensure code modularity.
+
+● For API testing, I rely on Postman, where I’ve validated payloads, headers, and response times. I’ve also worked with REST APIs, performing both manual checks and automation using Postman collections and monitors.
+
+● I’ve worked with Jenkins to set up CI/CD pipelines and run automated test suites regularly. This helped us catch issues early and maintain release quality.
+
+● I'm comfortable using Git/GitHub for version control, collaborating with team members, managing branches, and reviewing code changes.
+
+● I also use JIRA for tracking bugs and managing test cycles, and I've worked in Agile teams, actively participating in daily stand-ups, sprint planning, and retrospectives.
+
+● Additionally, I’ve used tools like Allure Reports for sharing detailed test results with the team and have basic experience in writing SQL queries to verify data in MySQL databases.
+● In every project, my focus has been to understand the business flow, test end-to-end user journeys, and ensure that we deliver quality software with fewer defects and better performance.
