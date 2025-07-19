@@ -1,0 +1,147 @@
+🔧 1. Git Setup (Only once per machine)
+Download & install Git: 🔗 https://git-scm.com/downloads
+Configure Git: This ensures your commits are tagged with your name and email.
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+To check your config:
+git config --list
+
+================================================================================================
+
+📁 2. Start a New Git Project
+If you're starting from scratch:
+This initializes a new Git repository in the current folder (creates a hidden .git directory).
+You can now start tracking files.
+
+git init
+
+================================================================================================
+
+🌐 3. Clone an Existing Remote Repository
+git clone <repo-url>
+
+================================================================================================
+
+📄 4. Check Current Git Status
+Before you commit anything, check what's happening:
+
+git status
+
+It will show: Untracked files (new), Modified files (changes not staged), Files staged for commit
+
+================================================================================================
+
+📦 5. Stage Changes for Commit
+To stage a specific file:
+git add <filename>
+
+To stage all files:
+git add .
+
+================================================================================================
+
+✅ 6. Commit Your Changes
+A commit saves your changes with a message:
+
+git commit -m "Your message here"
+
+Keep your commit messages clear and descriptive.
+
+================================================================================================
+
+🕓 7. View Commit History
+git log
+
+This shows commit history with:
+Commit hash
+Author name
+Date
+Commit message
+Use q to quit the log view.
+
+================================================================================================
+
+⬆️ 8. Push Changes to Remote Repository
+To upload your local commits to GitHub or another remote:
+
+git push origin <branch-name>
+
+================================================================================================
+
+⬇️ 9. Pull Latest Changes from Remote
+To sync your local branch with remote:
+
+git pull origin <branch-name>
+
+This fetches and merges changes from the remote repo.
+
+================================================================================================
+
+🌿 10. Create and Switch to a New Branch
+Branching helps isolate features or fixes:
+
+git checkout -b <new-branch-name>
+
+This creates a new branch and switches to it.
+
+================================================================================================
+
+🔄 11. Switch Between Branches
+
+git checkout <branch-name>
+Switches you back to the main branch or any existing branch.
+
+================================================================================================
+
+🔗 12. Merge a Branch into Main
+First, switch to the main branch:
+git checkout main
+
+Then merge your feature branch:
+git merge <branch-name>
+
+If no conflicts exist, it merges cleanly.
+
+================================================================================================
+
+🧹 13. Delete a Branch (Post-Merge)
+Once a branch is merged, you can delete it:
+
+git branch -d <branch-name>
+
+Use -D (uppercase) to force delete if it’s not merged.
+
+
+💾 14. Save Temporary Work with Stash (Optional)
+If you want to save your current changes without committing:
+
+git stash
+It hides your changes so you can switch branches safely.
+
+To restore the stashed work:
+git stash pop
+
+
+
+🧠 Bonus Commands
+| Command             | Purpose                                 |
+| ------------------- | --------------------------------------- |
+| `git remote -v`     | List remote URLs connected to your repo |
+| `git branch`        | List all local branches                 |
+| `git log --oneline` | View concise commit history             |
+| `git diff`          | Show what changed in your files         |
+
+
+
+✅ Example Workflow Summary
+git clone https://github.com/your-org/project.git
+cd project
+git checkout -b feature/login
+Work on your files...
+git add .
+git commit -m "Added login validations"
+git push origin feature/login
+Create a Pull Request on GitHub
+After review, merge into main
